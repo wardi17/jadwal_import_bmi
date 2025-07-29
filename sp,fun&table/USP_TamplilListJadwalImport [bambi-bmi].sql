@@ -41,7 +41,7 @@ BEGIN
 			FROM  [bambi-bmi].[dbo].import_shipments  WHERE YEAR(date_input)=@tahun  AND  user_input=@userid AND  date_finish IS NULL ORDER BY ItemNo ASC ;
 	 	END
 
-		SELECT * FROM #temptess
+		SELECT * FROM #temptess  ORDER BY ItemNo ASC
 END
 
 

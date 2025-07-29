@@ -14,8 +14,8 @@ class Database
 	public function __construct()
 	{
 
-		$server = "(LOCAL)";
-		//$server = "DESKTOP-1CEB0AJ\SQLEXPRESS";
+		//$server = "(LOCAL)";
+		$server = "DESKTOP-1CEB0AJ\SQLEXPRESS";
 		// $connection = odbc_connect("Driver={SQL Server};Server=DESKTOP-PUJ0GAQ\MSSQLSERVER2;Database=bambi-bmi;","sa","123456");
 		// $this->dbh =$connection;
 		$dsn = 'Driver={SQL Server};Driver={SQL Server};Server=' . $server . ';Database=' . $this->dbnm;

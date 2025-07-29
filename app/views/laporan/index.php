@@ -326,7 +326,7 @@
 
            <div class="header-bar">
             <div class="print-btn">
-                <button id="printBtn">🖨️ Print</button>
+                <button id="printBtn">🖨️</button>
               </div>
               <div class="title">
                 <h5>UPDATE IMPORT BMI/BMN</h5>

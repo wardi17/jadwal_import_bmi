@@ -46,7 +46,7 @@ BEGIN
 		)
 	
 
-	ORDER BY ItemNo DESC
+	ORDER BY ItemNo ASC
 END
 GO
 

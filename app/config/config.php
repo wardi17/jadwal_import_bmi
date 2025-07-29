@@ -3,8 +3,7 @@ $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') ? "https:/
 $host = $_SERVER['HTTP_HOST'];
 $currentUrl1 = $protocol . $host;
 $currentUrl = $protocol . $host . '/wardibaset';
-define('base_url', $currentUrl1 . '/forwader_bmi/public');
-//define('base_url', $currentUrl . '/jadwal_import_bmi/public');
+define('base_url', $currentUrl . '/jadwal_import_bmi/public');
 define('url_store', $currentUrl1 . "/UploadFilesForwader/");
 define('FOLDER', 'C:/UploadFilesForwader/');
 //define('FOLDER', 'D:/UploadFilesForwader/');
